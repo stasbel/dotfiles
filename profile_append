@@ -12,3 +12,7 @@ if [[ -z $(ps -u $(whoami) | grep "jupyter") ]]; then
 	nohup jupyter notebook --no-browser --port=7777 --port-retries=0 &> .jupyter_log&
 fi
 
+# Bash history
+export HISTSIZE=1000000
+export HISTFILESIZE=1000000000
+
