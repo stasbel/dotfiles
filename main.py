@@ -8,7 +8,7 @@ if __name__ == '__main__':
     with open('input.txt', 'r') as f:
         n = int(f.readline().strip())
         a = [int(i) for i in f.readline().strip().split()]
-            
+
     a.sort()
     a = deque(a)
     result = 0
@@ -24,7 +24,7 @@ if __name__ == '__main__':
         else:
             a.append(x + z)
             a.append(y)
-    
+
     result = str(sum(a) + result)
     with open('output.txt', 'w') as f:
         f.write(result)
