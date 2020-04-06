@@ -96,10 +96,7 @@ export HISTFILESIZE=1000000000
 # zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-# vlc
-alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
-
-# remove duplicates from PATH
+# Remove duplicates from PATH.
 if [ -n "$PATH" ]; then
  old_PATH=$PATH:; PATH=
  while [ -n "$old_PATH" ]; do
@@ -117,14 +114,7 @@ fi
 # X11
 export DISPLAY=:0
 
-# Brew Coreutils
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-
-# Iterm2
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# ls colors
+# Basics Colors
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -133,5 +123,29 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-# For PySpark
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# Apps
+
+## Homebrew
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+# export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+## Iterm2
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+## NGC
+# alias ngc-mount='ngc workspace mount stan stan'
+# alias ngc-unmount='ngc workspace unmount stan && rm -rf stan'
+
+## Spark
+# export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
+# export SPARK_HOME='/home/stanislavv/Apps/Conda/envs/bd/lib/python3.5/site-packages/pyspark'
+# export PYSPARK_DRIVER_PYTHON='/home/stanislavv/Apps/Conda/envs/bd/bin/jupyter'
+# export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+# export PYSPARK_PYTHON='/home/stanislavv/Apps/Conda/envs/bd/bin/python'
+
+## CUDA
+# CUDAROOT="/usr/local/cuda"
+# export LD_LIBRARY_PATH=$CUDAROOT/lib64:$LD_LIBRARY_PATH
+# export CFLAGS="-I$CUDAROOT/include $CFLAGS"
+# export CUDA_HOME=$CUDAROOT
+# export CUDA_PATH=$CUDAROOT

@@ -136,3 +136,21 @@ unset __conda_setup
 
 # Encoddings
 export LC_ALL=en_US.UTF-8
+
+# Aliases
+alias ngc-mount='ngc workspace mount stan stan'
+alias ngc-unmount='ngc workspace unmount stan && rm -rf stan'
+
+# Spark
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
+export SPARK_HOME='/home/stanislavv/Apps/Conda/envs/bd/lib/python3.5/site-packages/pyspark'
+export PYSPARK_DRIVER_PYTHON='/home/stanislavv/Apps/Conda/envs/bd/bin/jupyter'
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+export PYSPARK_PYTHON='/home/stanislavv/Apps/Conda/envs/bd/bin/python'
+
+# CUDA
+CUDAROOT="/usr/local/cuda"
+export LD_LIBRARY_PATH=$CUDAROOT/lib64:$LD_LIBRARY_PATH
+export CFLAGS="-I$CUDAROOT/include $CFLAGS"
+export CUDA_HOME=$CUDAROOT
+export CUDA_PATH=$CUDAROOT
