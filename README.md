@@ -7,6 +7,7 @@
 * iTerm2
 * zsh + ohmyzsh
 * vim + PyCharm
+* ssh + tmux
 * conda
 
 ## Licence
