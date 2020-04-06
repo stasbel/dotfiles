@@ -3,7 +3,7 @@
 	hotfix = !git commit -a --amend --no-edit && git push -f
 	ali = config --get-regexp alias
 	st = status
-	commit = commit -S -s
+	cs = commit -S -s
 [user]
 	name = Stanislav Belyaev
 	email = stasbelyaev96@gmail.com
