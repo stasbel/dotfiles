@@ -1,0 +1,22 @@
+Host *
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+ ServerAliveInterval 100
+ ForwardAgent yes
+ ForwardX11 no
+ ForwardX11Trusted no
+ GatewayPorts yes
+ XAuthLocation /opt/X11/bin/xauth
+
+Host nvidia
+  HostName 10.110.43.35
+  User stanislavv
+  IdentityFile /Users/stasbel/.ssh/id_rsa_nvidia_desktop
+  LogLevel QUIET
+  # Jupyter #1
+  LocalForward 1490 localhost:1490
+  # Jupyter #2
+  LocalForward 6182 localhost:6182
+  # Jupyter #3
+  LocalForward 9999 localhost:9999
