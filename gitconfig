@@ -4,7 +4,7 @@
 	ali = config --get-regexp alias
 	st = status
 	cs = commit -S -s
-	lines = ! git ls-files | xargs cat | wc -l
+	lines = ! git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
 [user]
 	name = Stanislav Beliaev
 	email = stasbelyaev96@gmail.com
@@ -12,3 +12,8 @@
 	editor = vim
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+	required = true
