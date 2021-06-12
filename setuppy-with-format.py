@@ -38,8 +38,8 @@ __version__ = '0.0.1'
 
 # (Optional) `docs`: doc8 + flake8-rst-docstrings
 # Seems to be more suitable for big projects with urge for documentation.
-
 _here = path.abspath(path.dirname(__file__))
+:PymodeLintAuto
 with open(path.join(_here, 'README.md'), encoding='utf-8') as f:
     _long_description_lines = f.readlines()
 

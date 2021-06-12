@@ -1,0 +1,11 @@
+#!/usr/bin/env bash 
+
+brew update && brew upgrade && brew cleanup
+
+# Update vimrc config originally taken from 'https://github.com/amix/vimrc'.
+
+
+# tmux
+tmux_dir=~/.tmux
+git -C $tmux_dir pull --rebase
+cp $tmux_dir/.tmux.conf.local ~/

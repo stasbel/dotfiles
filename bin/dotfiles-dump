@@ -1,0 +1,6 @@
+#!/usr/bin/env bash 
+
+# tmux
+tmux_dir=~/.tmux
+git -C $tmux_dir pull --rebase
+cp $tmux_dir/.tmux.conf.local ~/
