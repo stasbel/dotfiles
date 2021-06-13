@@ -24,7 +24,6 @@
 
 # dotfiles Examples
 
-https://github.com/mitchellh/dotfiles  
 https://github.com/pezcoder/dotfiles  
 https://github.com/LukeSmithxyz/voidrice
 
