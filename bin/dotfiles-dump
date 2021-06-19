@@ -1,4 +1,7 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+
+# brew
+brew bundle dump --force --file=~/dotfiles/Brewfile
 
 # tmux
 tmux_dir=~/.tmux

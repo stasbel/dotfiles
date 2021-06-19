@@ -6,9 +6,9 @@
 | OS | macOS | 11.4 ||
 | Window Manager | [Magnet](https://magnet.crowdcafe.com) |||
 | Terminal | [iTerm2](https://iterm2.com) || ... |
-| Shell | zsh + oh-my-zsh |||
+| Shell | zsh + oh-my-zsh (see plugins) |||
 | File Manager | [nnn](https://github.com/jarun/nnn), [lsd](https://github.com/Peltoche/lsd) ||| 
-| Search | [fzf](https://github.com/junegunn/fzf) | 0.27.1 ||
+| Search | [fzf](https://github.com/junegunn/fzf), [ripgrep](https://github.com/BurntSushi/ripgrep) | 0.27.1 ||
 | Packages | [brew](https://brew.sh) | 3.1.9 ||
 | VCS | git | 2.30.1 | ... |
 | Session Manager | [tmux](https://github.com/gpakosz/.tmux) |||
@@ -22,10 +22,14 @@
 | Font | [Source Code Pro](https://github.com/sb2nov/mac-setup/issues/218) |||
 | Video | [mpv](https://github.com/mpv-player/mpv), [youtube-dl](https://github.com/ytdl-org/youtube-dl) |||
 
-# dotfiles Examples
+# TODOs
 
-https://github.com/pezcoder/dotfiles  
-https://github.com/LukeSmithxyz/voidrice
+iterm2
+pycharm + vim mode
+remove admin or left but note somewhere
+change and review table
+dock
+what to do with prev mac?
 
 ## Licence
 
