@@ -1,19 +1,25 @@
 [alias]
-	grog = log --graph --abbrev-commit --decorate --all \n--format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
-	hotfix = !git commit -a --amend --no-edit && git push -f
-	ali = config --get-regexp alias
+	als = config --get-regexp alias
 	st = status
-	cs = commit -S -s
+	cs = commit -s -S
 	lines = ! git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
+	grog = log --graph --abbrev-commit --decorate --all \n--format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+[core]
+	editor = vim
 [user]
 	name = Stanislav Beliaev
 	email = stasbelyaev96@gmail.com
-[core]
-	editor = vim
+[github]
+	user = stasbel
+[commit]
+	signoff = true
+	gpgsign = true
 [push]
-	default = simple
+	default = upstream
+[pull]
+	rebase = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge --skip -- %f
-	process = git-lfs filter-process --skip
 	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

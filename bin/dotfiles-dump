@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
-# brew
-brew bundle dump --force --file=~/dotfiles/Brewfile
+# os
+neofetch --stdout >$DOTFILES/neofetch
 
-# tmux
-tmux_dir=~/.tmux
-git -C $tmux_dir pull --rebase
-cp $tmux_dir/.tmux.conf.local ~/
+# zsh
+cp ~/.zshrc $DOTFILES/zshrc
+
+# brew
+brew bundle dump --force --file=$DOTFILES/Brewfile
+
+# git
+cp ~/.gitconfig $DOTFILES/gitconfig

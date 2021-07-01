@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 *.txt
 .idea/
+.DS_Store
