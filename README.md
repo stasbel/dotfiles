@@ -25,16 +25,11 @@
 | Font | [Source Code Pro](https://github.com/sb2nov/mac-setup/issues/218), [Hard Nerd Font](https://github.com/ryanoasis/nerd-fonts) ||
 | Video | [mpv](https://github.com/mpv-player/mpv), [youtube-dl](https://github.com/ytdl-org/youtube-dl) ||
 
-## TODOs
-
-finalize dotfiles  
-remove admin or left but note somewhere
-
 ## MacOS Settings
 
-* Swap `<C-Space>` and `<Cmd-Space>` for Sportlight/Language keyboards.
+* Swap `<C-Space>` and `<Cmd-Space>` for Sportlight/Language keyboard shortcuts.
 * Maximize keyboard repeat speed and minimize delay.
-* "Do not disturb" auto setting.
+* "Do Not Disturb" auto setting
 * Mission Control apps grouping and switch off separate spaces for displays.
 
 ## Licence
