@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # os
-neofetch --stdout >$DOTFILES/neofetch
+neofetch --disable uptime memory --stdout >$DOTFILES/neofetch
 
 # zsh
 cp ~/.zshrc $DOTFILES/zshrc
