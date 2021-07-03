@@ -93,3 +93,6 @@ alias ydl='youtube-dl'
 # dotfiles
 export DOTFILES=$HOME/.dotfiles
 export PATH=$PATH:$DOTFILES/bin
+
+# nltk
+export NLTK_DATA="$HOME/.nltk"

@@ -32,6 +32,12 @@
 * "Do Not Disturb" auto setting
 * Mission Control apps grouping and switch off separate spaces for displays.
 
+## JetBrains Settings
+
+* "Keymap" profile is per-device base.
+* "Code Style" and "Inspections" is per-project base.
+* Other stuff is synced through account.
+
 ## Licence
 
 [MIT](LICENSE)
