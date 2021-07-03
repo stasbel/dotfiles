@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 
 # brew
-brew update && brew upgrade && brew cleanup
+brew update && brew upgrade && mas upgrade && brew cleanup
 
 # tmux
 tmux_dir=~/.tmux
