@@ -28,6 +28,7 @@
 ## MacOS Settings
 
 * Swap `<C-Space>` and `<Cmd-Space>` for Sportlight/Language keyboard shortcuts.
+* Switch on `<Fn>` for emoji choosing. 
 * Maximize keyboard repeat speed and minimize delay.
 * "Do Not Disturb" auto setting
 * Mission Control apps grouping and switch off separate spaces for displays.
@@ -36,7 +37,7 @@
 
 * "Keymap" profile is per-device base.
 * "Code Style" and "Inspections" is per-project base.
-* Other stuff is synced through account.
+* Other stuff, including "Theme", is synced through account.
 
 ## Licence
 
