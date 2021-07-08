@@ -39,6 +39,7 @@
 * "Keymap" profile is per-device base.
 * "Code Style" and "Inspections" is per-project base.
 * Other stuff, including "Theme", is synced through account.
+* Enable Python inspections: all major and docstrings.
 
 ## Licence
 
