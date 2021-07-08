@@ -29,6 +29,7 @@
 
 * Swap `<C-Space>` and `<Cmd-Space>` for Sportlight/Language keyboard shortcuts.
 * Switch on `<Fn>` for emoji choosing. 
+* Switch off text autocomplete and capitalizing.
 * Maximize keyboard repeat speed and minimize delay.
 * "Do Not Disturb" auto setting
 * Mission Control apps grouping and switch off separate spaces for displays.
