@@ -1,0 +1,12 @@
+Host *
+  IdentityFile ~/.ssh/id_rsa
+  GatewayPorts yes
+  LogLevel QUIET
+  ServerAliveInterval 100
+  # Specifies whether keys should be automatically added to a running ssh-agent.
+  AddKeysToAgent yes
+  # Specifies whether the connection to the auth. agent will be forwarded to the remote machine.
+  ForwardAgent yes
+  # On macOS, specifies whether the system should search for passphrases in the user's keychain.
+  UseKeychain yes
+

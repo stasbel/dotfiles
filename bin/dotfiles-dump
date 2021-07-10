@@ -11,3 +11,7 @@ brew bundle dump --force --file=$DOTFILES/Brewfile
 
 # git
 cp ~/.gitconfig $DOTFILES/gitconfig
+
+# ssh
+line_num=$(grep -n "# End of the Defaults" $HOME/.ssh/config | cut -f1 -d:)
+head -n $((line_num - 1)) $HOME/.ssh/config >$DOTFILES/sshconfig

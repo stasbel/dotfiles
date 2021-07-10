@@ -15,7 +15,7 @@
 | Search | [fzf](https://github.com/junegunn/fzf), [ripgrep](https://github.com/BurntSushi/ripgrep) ||
 | VCS | git | [gitconfig](gitconfig) |
 | Session Manager | tmux | [.tmux by @gpakosz](https://github.com/gpakosz/.tmux) |
-| SSH | [rclone](https://rclone.org) ||
+| SSH | [rclone](https://rclone.org) | [sshconfig](sshconfig) |
 | Monitoring | [neofetch](https://github.com/dylanaraps/neofetch), [htop](https://github.com/htop-dev/htop), [ncdu](https://dev.yorhel.nl/ncdu), [speedtest](https://github.com/sivel/speedtest-cli) ||
 | Editor | vim | [vimrc by @amix](https://github.com/amix/vimrc) |
 | IDE | [JetBrains](https://www.jetbrains.com) ||
