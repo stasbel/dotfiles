@@ -1,11 +1,11 @@
-stanb@192-168-0-112.local 
-------------------------- 
+stanb@Stans-MacBook-M1.local 
+---------------------------- 
 OS: macOS 11.4 20F71 arm64 
 Host: MacBookPro17,1 
 Kernel: 20.5.0 
 Packages: 1 (brew) 
 Shell: zsh 5.8 
-Resolution: 1440x900 
+Resolution: 2560x1440 
 DE: Aqua 
 WM: Quartz Compositor 
 WM Theme: Blue (Light) 
