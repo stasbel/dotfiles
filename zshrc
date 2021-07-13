@@ -98,6 +98,6 @@ export PATH=$PATH:$DOTFILES/bin
 export NLTK_DATA="$HOME/.nltk"
 
 # speech
-SPEECH_BASE=$(realpath $(find src -name speech -type d -print -quit))
+SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
 eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
 
