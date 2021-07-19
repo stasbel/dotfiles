@@ -5,10 +5,10 @@ Host: MacBookPro17,1
 Kernel: 20.5.0 
 Packages: 1 (brew) 
 Shell: zsh 5.8 
-Resolution: 2560x1440 
+Resolution: 1440x900 
 DE: Aqua 
 WM: Quartz Compositor 
-WM Theme: Blue (Light) 
+WM Theme: Blue (Dark) 
 Terminal: iTerm2 
 Terminal Font: SourceCodePro-Regular 14 (normal) / HackNerdFontCompleteM-Regular 14 (non-ascii) 
 CPU: Apple M1 
