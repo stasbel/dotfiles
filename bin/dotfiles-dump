@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # os
-neofetch --disable uptime memory --stdout >$DOTFILES/neofetch
+neofetch --disable uptime memory wm_theme resolution --stdout >$DOTFILES/neofetch
 
 # zsh
 cp ~/.zshrc $DOTFILES/zshrc
