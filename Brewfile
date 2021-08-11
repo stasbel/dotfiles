@@ -52,6 +52,7 @@ cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
 cask "ticktick"
+cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "GoodNotes", id: 1444383602
