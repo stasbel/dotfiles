@@ -28,6 +28,7 @@
 
 <details>
 <summary>MacOS</summary>
+
 * Swap `<C-Space>` and `<Cmd-Space>` for Sportlight/Language keyboard shortcuts.
 * Switch on `<Fn>` for emoji choosing. 
 * Switch off text autocomplete and capitalizing.
@@ -35,19 +36,24 @@
 * "App Expose" 3 fingers for TrackPad
 * "Do Not Disturb" auto setting
 * Mission Control apps grouping and switch off separate spaces for displays.
+
 </details>
 
 <details>
 <summary>Safari</summary>
+
 * Switch off automatic files opening after download.
+
 </details>
 
 <details>
 <summary>JetBrains</summary>
+
 * "Keymap" profile is per-device base.
 * "Code Style" and "Inspections" is per-project base.
 * Other stuff, including "Theme", is synced through account.
 * Enable Python inspections: all major and docstrings.
+
 </details>
 
 ## Licence
