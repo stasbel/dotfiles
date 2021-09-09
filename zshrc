@@ -97,6 +97,9 @@ export PATH=$PATH:$DOTFILES/bin
 # nltk
 export NLTK_DATA="$HOME/.nltk"
 
+# go
+export GOPATH="$HOME/.go"
+
 # speech
 SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
 eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
