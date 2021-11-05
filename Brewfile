@@ -53,6 +53,7 @@ cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
 cask "ticktick"
+cask "visual-studio-code"
 cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122

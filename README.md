@@ -23,7 +23,7 @@
 | Docs | [tldr](https://github.com/tldr-pages/tldr), [Dash](https://kapeli.com/dash) ||
 | Font | [Source Code Pro](https://github.com/sb2nov/mac-setup/issues/218), [Hard Nerd Font](https://github.com/ryanoasis/nerd-fonts) ||
 | Video | [mpv](https://github.com/mpv-player/mpv), [youtube-dl](https://github.com/ytdl-org/youtube-dl) ||
-| Network Blocker | `/etc/hosts 0.0.0.0 trick`, [AdGuard](https://adguard.com) ||
+| Network Blocker | `/etc/hosts 0.0.0.0 trick`, [AdGuard](https://adguard.com), `Google SafeSearch` ||
 
 ## Settings
 
