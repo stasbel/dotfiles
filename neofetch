@@ -1,8 +1,8 @@
-stanb@Stans-MacBook-M1.local 
----------------------------- 
-OS: macOS 11.6 20G165 arm64 
+stanb@192-168-0-104.local 
+------------------------- 
+OS: macOS 12.2.1 21D62 arm64 
 Host: MacBookPro17,1 
-Kernel: 20.6.0 
+Kernel: 21.3.0 
 Packages: 1 (brew) 
 Shell: zsh 5.8 
 DE: Aqua 
