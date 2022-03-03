@@ -53,5 +53,4 @@ mas "GoodNotes", id: 1444383602
 mas "Magnet", id: 441258766
 mas "SnippetsLab", id: 1006087419
 mas "Tomato 2", id: 1494210770
-mas "Trello", id: 1278508951
 mas "Xcode", id: 497799835
