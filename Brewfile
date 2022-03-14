@@ -35,6 +35,7 @@ cask "flux"
 cask "font-hack-nerd-font"
 cask "font-source-code-pro"
 cask "google-chrome"
+cask "google-drive"
 cask "iterm2"
 cask "macdown"
 cask "mendeley"
@@ -50,7 +51,6 @@ cask "visual-studio-code"
 cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122
-mas "GoodNotes", id: 1444383602
 mas "Magnet", id: 441258766
 mas "SnippetsLab", id: 1006087419
 mas "Tomato 2", id: 1494210770

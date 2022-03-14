@@ -1,6 +1,8 @@
 #!/usr/bin/env bash 
 
 # brew
+git -C $HOMEBREW_BREW_GIT_REMOTE pull
+git -C $HOMEBREW_CORE_GIT_REMOTE pull
 brew update && brew upgrade && mas upgrade && brew cleanup
 
 # tmux
