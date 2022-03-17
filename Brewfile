@@ -52,6 +52,7 @@ cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "Magnet", id: 441258766
+mas "Outline", id: 1356178125
 mas "SnippetsLab", id: 1006087419
 mas "Tomato 2", id: 1494210770
 mas "Xcode", id: 497799835
