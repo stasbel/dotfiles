@@ -48,6 +48,7 @@ cask "private-internet-access"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
+cask "vlc"
 cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122
