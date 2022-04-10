@@ -10,6 +10,9 @@ tmux_dir=~/.tmux
 git -C $tmux_dir pull --rebase
 cp $tmux_dir/.tmux.conf.local ~/
 
+# tldr
+tldr --update
+
 # vim
 vim_dir=~/.vim_runtime
 git -C $vim_dir pull --rebase
