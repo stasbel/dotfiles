@@ -1,5 +1,11 @@
 # dotfiles
 
+## TODOs
+
+- [ ] GPG key is unverified.
+- [ ] Copy vimrc.
+- [ ] Copy tmuxrc
+
 ## Table
 
 | What For | Tool | Config |
