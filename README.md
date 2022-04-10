@@ -58,6 +58,13 @@
 
 </details>
 
+## Dev
+
+```bash
+pre-commit install
+pre-commit run --all-files
+```
+
 ## Licence
 
 [MIT](LICENSE)
