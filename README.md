@@ -2,7 +2,7 @@
 
 ## TODOs
 
-- [ ] GPG key is unverified.
+- [x] GPG key is unverified.
 - [ ] Copy vimrc.
 - [ ] Copy tmuxrc
 - [ ] Security checks.
