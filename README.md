@@ -5,7 +5,7 @@
 - [x] GPG key is unverified.
 - [ ] Copy vimrc.
 - [ ] Copy tmuxrc
-- [ ] Security checks.
+- [x] Security checks.
 
 ## Table
 

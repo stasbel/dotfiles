@@ -104,3 +104,5 @@ export GOPATH="$HOME/.go"
 SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
 eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
 
+# secrets (APIs, etc.)
+. $HOME/.secretsrc
