@@ -19,7 +19,7 @@
 | Packages | [brew](https://brew.sh) | [Brewfile](Brewfile) |
 | File Manager | [nnn](https://github.com/jarun/nnn), [lsd](https://github.com/Peltoche/lsd), [bat](https://github.com/sharkdp/bat) | [*rc lines](zshrc) |
 | Search | [fzf](https://github.com/junegunn/fzf), [ripgrep](https://github.com/BurntSushi/ripgrep) ||
-| VCS | git, [difftastic](https://github.com/Wilfred/difftastic) | [gitconfig](gitconfig) |
+| VCS | git, [difftastic](https://github.com/Wilfred/difftastic), [lazygit](https://github.com/jesseduffield/lazygit) | [gitconfig](gitconfig) |
 | Session Manager | tmux | [.tmux by @gpakosz](https://github.com/gpakosz/.tmux) |
 | SSH | autossh, [rclone](https://rclone.org) | [sshconfig](sshconfig) |
 | Monitoring | [neofetch](https://github.com/dylanaraps/neofetch), [htop](https://github.com/htop-dev/htop), [glances](https://github.com/nicolargo/glances), [ncdu](https://dev.yorhel.nl/ncdu), [speedtest](https://github.com/sivel/speedtest-cli), [duf](https://github.com/muesli/duf) ||
