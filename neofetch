@@ -1,13 +1,12 @@
  
-OS: macOS 12.3.1 21E258 arm64 
+OS: macOS 12.4 21F79 arm64 
 Host: MacBookPro17,1 
-Kernel: 21.4.0 
+Kernel: 21.5.0 
 Packages: 1 (brew) 
-Shell: zsh 5.8 
+Shell: zsh 5.8.1 
 DE: Aqua 
 WM: Quartz Compositor 
-Terminal: iTerm2 
-Terminal Font: SourceCodePro-Regular 14 (normal) / HackNerdFontCompleteM-Regular 14 (non-ascii) 
+Terminal: tmux 
 CPU: Apple M1 
 GPU: Apple M1 
 

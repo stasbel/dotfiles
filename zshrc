@@ -101,8 +101,11 @@ export NLTK_DATA="$HOME/.nltk"
 export GOPATH="$HOME/.go"
 
 # speech
-SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
-eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
+# SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
+# eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
+
+# gcloud
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.ssh/gcloud.json"
 
 # secrets (APIs, etc.)
 . $HOME/.secretsrc
