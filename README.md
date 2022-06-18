@@ -24,7 +24,7 @@
 | SSH | autossh, [rclone](https://rclone.org) | [sshconfig](sshconfig) |
 | Monitoring | [neofetch](https://github.com/dylanaraps/neofetch), [htop](https://github.com/htop-dev/htop), [glances](https://github.com/nicolargo/glances), [ncdu](https://dev.yorhel.nl/ncdu), [speedtest](https://github.com/sivel/speedtest-cli), [duf](https://github.com/muesli/duf) ||
 | Editor | vim | [vimrc by @amix](https://github.com/amix/vimrc) |
-| IDE | [JetBrains](https://www.jetbrains.com) ||
+| IDE | [JetBrains](https://www.jetbrains.com), [VSCODE](https://code.visualstudio.com) ||
 | Python | [miniconda](https://docs.conda.io/en/latest/miniconda.html) ||
 | Markdown | [MacDown](https://github.com/MacDownApp/macdown) ||
 | Docs | [tldr](https://github.com/tldr-pages/tldr), [Dash](https://kapeli.com/dash) ||
