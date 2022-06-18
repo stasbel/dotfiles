@@ -6,7 +6,8 @@ Packages: 1 (brew)
 Shell: zsh 5.8.1 
 DE: Aqua 
 WM: Quartz Compositor 
-Terminal: tmux 
+Terminal: iTerm2 
+Terminal Font: SourceCodePro-Regular 14 (normal) / HackNerdFontCompleteM-Regular 14 (non-ascii) 
 CPU: Apple M1 
 GPU: Apple M1 
 
