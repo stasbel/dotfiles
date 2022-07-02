@@ -7,6 +7,8 @@ plugins=(
   zsh-syntax-highlighting
   zsh-completions
   zsh-vim-mode
+  docker
+  docker-compose
 )
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
