@@ -24,7 +24,7 @@
 | Font | [Source Code Pro](https://github.com/sb2nov/mac-setup/issues/218), [Hard Nerd Font](https://github.com/ryanoasis/nerd-fonts) ||
 | Video | [mpv](https://github.com/mpv-player/mpv), [youtube-dl](https://github.com/ytdl-org/youtube-dl) ||
 | VPN | [Outline](https://getoutline.org) ||
-| Network Blocker | `/etc/hosts 0.0.0.0 trick`, [AdGuard](https://adguard.com), `Google SafeSearch` ||
+| Network Blocker | `/etc/hosts 0.0.0.0 trick`, [AdGuard](https://adguard.com), `SafeSearchs` ||
 
 ## Settings
 
