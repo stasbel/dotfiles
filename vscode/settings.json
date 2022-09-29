@@ -1,0 +1,36 @@
+{
+    "editor.rulers": [
+        99
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+        "--line-length",
+        "99"
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "isort.args": [
+        "--profile",
+        "black",
+        "--line-width=99",
+    ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=99"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
+}

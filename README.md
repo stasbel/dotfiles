@@ -1,18 +1,11 @@
 # dotfiles
 
-## TODOs
-
-- [x] GPG key is unverified.
-- [ ] Copy vimrc.
-- [ ] Copy tmuxrc
-- [x] Security checks.
-
 ## Table
 
 | What For | Tool | Config |
 | -------- | ---- | ------ |
-| Hardware | Macbook w/ Arm M1 [2020] | [neofetch](neofetch) |
-| OS | macOS [11.4] | [neofetch](neofetch) |
+| Hardware | Macbook Pro w/ Arm M1 [2020, 16Gb] | [neofetch](neofetch) |
+| OS | macOS [12.6] | [neofetch](neofetch) |
 | Window Manager | [Magnet](https://magnet.crowdcafe.com) ||
 | Terminal | [iTerm2](https://iterm2.com) | [iterm](iterm) |
 | Shell | zsh w/ [oh-my-zsh](https://ohmyz.sh) (plugins) | [zshrc](zshrc) |
@@ -23,8 +16,8 @@
 | Session Manager | tmux | [.tmux by @gpakosz](https://github.com/gpakosz/.tmux) |
 | SSH | autossh, [rclone](https://rclone.org) | [sshconfig](sshconfig) |
 | Monitoring | [neofetch](https://github.com/dylanaraps/neofetch), [htop](https://github.com/htop-dev/htop), [glances](https://github.com/nicolargo/glances), [ncdu](https://dev.yorhel.nl/ncdu), [speedtest](https://github.com/sivel/speedtest-cli), [duf](https://github.com/muesli/duf) ||
-| Editor | vim | [vimrc by @amix](https://github.com/amix/vimrc) |
-| IDE | [JetBrains](https://www.jetbrains.com), [VSCODE](https://code.visualstudio.com) ||
+| Editor | [vim](https://www.vim.org) | [vimrc by @amix](https://github.com/amix/vimrc) |
+| IDE | [JetBrains](https://www.jetbrains.com), [VSCODE](https://code.visualstudio.com) | [vscode](vscode) |
 | Python | [miniconda](https://docs.conda.io/en/latest/miniconda.html) ||
 | Markdown | [MacDown](https://github.com/MacDownApp/macdown) ||
 | Docs | [tldr](https://github.com/tldr-pages/tldr), [Dash](https://kapeli.com/dash) ||
