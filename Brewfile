@@ -74,6 +74,7 @@ cask "miro"
 cask "mongodb-compass"
 cask "notion"
 cask "private-internet-access"
+cask "raycast"
 cask "slack"
 cask "soulver"
 cask "spotify"
@@ -83,6 +84,7 @@ cask "whatsapp"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "Magnet", id: 441258766
+mas "Notion Web Clipper", id: 1559269364
 mas "Outline", id: 1356178125
 mas "SnippetsLab", id: 1006087419
 mas "Tomato 2", id: 1494210770
