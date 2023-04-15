@@ -1,7 +1,7 @@
  
-OS: macOS 12.6.2 21G320 arm64 
+OS: macOS 13.2.1 22D68 arm64 
 Host: MacBookPro17,1 
-Kernel: 21.6.0 
+Kernel: 22.3.0 
 Packages: 1 (brew) 
 Shell: zsh 5.8.1 
 DE: Aqua 

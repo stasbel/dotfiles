@@ -52,6 +52,7 @@ brew "wget"
 brew "cloudflare/cloudflare/cloudflared"
 brew "mongodb/brew/mongodb-community"
 brew "teamookla/speedtest/speedtest"
+cask "1password"
 cask "audacity"
 cask "binance"
 cask "brave-browser"
@@ -70,7 +71,6 @@ cask "google-cloud-sdk"
 cask "google-drive"
 cask "iterm2"
 cask "ledger-live"
-cask "macdown"
 cask "mendeley"
 cask "microsoft-auto-update"
 cask "microsoft-powerpoint"
@@ -95,3 +95,4 @@ mas "Outline", id: 1356178125
 mas "SnippetsLab", id: 1006087419
 mas "Tomato 2", id: 1494210770
 mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
