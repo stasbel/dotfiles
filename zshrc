@@ -1,3 +1,8 @@
+# brew
+export HOMEBREW_BREW_GIT_REMOTE="$HOME/.brew-cache/brew"
+export HOMEBREW_CORE_GIT_REMOTE="$HOME/.brew-cache/homebrew-core"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # zsh with oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME="sorin"
@@ -10,6 +15,9 @@ plugins=(
   docker
   docker-compose
 )
+# zsh completitions from brew
+# https://docs.brew.sh/Shell-Completion
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
@@ -29,18 +37,6 @@ export RPS1='${MODE_INDICATOR_PROMPT}'${RPS1}
 
 # iTerm2
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# brew
-export HOMEBREW_BREW_GIT_REMOTE="$HOME/.brew-cache/brew"
-export HOMEBREW_CORE_GIT_REMOTE="$HOME/.brew-cache/homebrew-core"
-eval "$(/opt/homebrew/bin/brew shellenv)"
-# Removing `conda` bin files so `brew` doesn't get us any warnings.
-brew () {
-    old_path=$PATH
-    export PATH=$(echo $PATH | sed -e "s;:$CONDA_PREFIX/bin;;" -e "s;$CONDA_PREFIX/bin:;;")
-    command brew "$@"
-    export PATH=$old_path
-}
 
 # nnn
 nnn ()
@@ -88,6 +84,13 @@ unset __conda_setup
 # <<< conda initialize <<<
 # Remove (base) env
 export PROMPT=$(echo $PROMPT | sed 's/(base) //')
+# Removing `conda` bin files so `brew` doesn't get us any warnings.
+brew () {
+    old_path=$PATH
+    export PATH=$(echo $PATH | sed -e "s;:$CONDA_PREFIX/bin;;" -e "s;$CONDA_PREFIX/bin:;;")
+    command brew "$@"
+    export PATH=$old_path
+}
 
 # youtube-dl
 alias ydl='youtube-dl'
@@ -102,12 +105,11 @@ export NLTK_DATA="$HOME/.nltk"
 # go
 export GOPATH="$HOME/.go"
 
-# speech
-# SPEECH_BASE=$(realpath $(find $HOME/src -name speech -type d -print -quit))
-# eval "$(bash ${SPEECH_BASE}/scripts/meta/make-scripts.sh)"
-
 # gcloud
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.ssh/gcloud.json"
+source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
 # secrets (APIs, etc.)
 . $HOME/.secretsrc
+
