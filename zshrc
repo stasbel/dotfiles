@@ -14,6 +14,7 @@ plugins=(
   zsh-vim-mode
   docker
   docker-compose
+  autoenv
 )
 # zsh completitions from brew
 # https://docs.brew.sh/Shell-Completion
@@ -82,15 +83,13 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-# Remove (base) env
-export PROMPT=$(echo $PROMPT | sed 's/(base) //')
 # Removing `conda` bin files so `brew` doesn't get us any warnings.
-brew () {
-    old_path=$PATH
-    export PATH=$(echo $PATH | sed -e "s;:$CONDA_PREFIX/bin;;" -e "s;$CONDA_PREFIX/bin:;;")
-    command brew "$@"
-    export PATH=$old_path
-}
+# brew () {
+#     old_path=$PATH
+#     export PATH=$(echo $PATH | sed -e "s;:$CONDA_PREFIX/bin;;" -e "s;$CONDA_PREFIX/bin:;;")
+#     command brew "$@"
+#     export PATH=$old_path
+# }
 
 # youtube-dl
 alias ydl='youtube-dl'
@@ -112,4 +111,7 @@ source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
 # secrets (APIs, etc.)
 . $HOME/.secretsrc
+
+# autoenv
+AUTOENV_ENABLE_LEAVE=True
 

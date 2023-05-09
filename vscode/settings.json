@@ -1,36 +1,24 @@
 {
-    "editor.rulers": [
-        99
-    ],
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--skip-string-normalization",
-        "--line-length",
-        "99"
-    ],
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "isort.args": [
-        "--profile",
-        "black",
-        "--line-width=99",
-    ],
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--max-line-length=99"
-    ],
-    "python.testing.pytestArgs": [
-        "tests"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.ipynb_checkpoints": true,
-        "**/.pytest_cache": true,
-        "**/*.egg-info": true
-    },
+  "jupyter.askForKernelRestart": false,
+  "notebook.output.textLineLimit": 100,
+  "workbench.startupEditor": "none",
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "python.analysis.ignore": ["**/*.ipynb"],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.iconTheme": "file-icons",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
 }
