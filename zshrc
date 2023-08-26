@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # brew
 export HOMEBREW_BREW_GIT_REMOTE="$HOME/.brew-cache/brew"
 export HOMEBREW_CORE_GIT_REMOTE="$HOME/.brew-cache/homebrew-core"
@@ -113,5 +115,33 @@ source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 . $HOME/.secretsrc
 
 # autoenv
-AUTOENV_ENABLE_LEAVE=True
+export AUTOENV_ENABLE_LEAVE=True
 
+# espeak
+# NOTE: there is a second brew install (x86_64) just for the espeak to work
+# second brew can be accessed via `arch -x86_64 /usr/local/bin/brew`
+export PHONEMIZER_ESPEAK_LIBRARY="/usr/local/Cellar/espeak/1.48.04_1/lib/libespeak.dylib"
+# export PHONEMIZER_ESPEAK_LIBRARY="/opt/homebrew/Cellar/espeak/1.48.04_1/lib/libespeak.dylib"
+
+# llvm
+# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+# export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+# omp
+# export LDFLAGS="-L/opt/homebrew/opt/libomp/lib $LDFLAGS"
+# export CPPFLAGS="-I/opt/homebrew/opt/libomp/include $CPPFLAGS"
+
+# icloud
+export ICLOUD_PATH="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# starship
+# eval "$(starship init zsh)"
+
+# neovim
+alias vim="nvim"
+
+# z
+. /opt/homebrew/etc/profile.d/z.sh

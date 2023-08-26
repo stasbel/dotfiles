@@ -4,7 +4,7 @@
 
 | What For | Tool | Config |
 | -------- | ---- | ------ |
-| Hardware | Macbook Pro w/ Arm M1 [2020, 16Gb] | [neofetch](neofetch) |
+| Hardware | Macbook Pro 2020 w/ Arm M1 16Gb | [neofetch](neofetch) |
 | OS | macOS [12.6] | [neofetch](neofetch) |
 | Window Manager | [Magnet](https://magnet.crowdcafe.com) ||
 | Terminal | [iTerm2](https://iterm2.com) | [iterm](iterm) |

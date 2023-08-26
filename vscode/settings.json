@@ -5,12 +5,13 @@
   "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true,
   "[javascript]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
-    "markdown": false,
+    "markdown": true,
     "scminput": false,
     "yaml": true
   },
@@ -18,7 +19,19 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
+  "flake8.importStrategy": "fromEnvironment",
+  "settingsSync.ignoredSettings": [
+    "-python.linting.flake8Path"
+  ],
+  "editor.cursorStyle": "block",
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
 }
