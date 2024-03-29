@@ -19,7 +19,6 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "flake8.importStrategy": "fromEnvironment",
@@ -34,4 +33,14 @@
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
+  "grammarly.files.include": [
+    "**/*.txt"
+  ],
+  "grammarly.files.exclude": [
+    "**/*.md"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "notebook.lineNumbers": "on",
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
 }
